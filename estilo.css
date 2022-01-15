@@ -1,11 +1,24 @@
+
 .container{
     text-align: center;
+
+}
+header{
+    margin-bottom: 2em;
+}
+.cabecalho{
+    margin-top: 10px;;
 }
 .logo{
-    width: 50%;
+    width: 15%;
     margin-bottom: 20px;
+    display:inline;
 }
-.titulo{
+h4{
+    display:inline;
+    color:rgb(197, 21, 144);
+}
+h2, h3{
     text-align: center;
     color:rgb(197, 21, 144);
 
@@ -13,6 +26,29 @@
 .titulo_carrossel{
     color:rgb(197, 21, 144);
 }
+#carousel-example-generic{
+    margin: auto;
+}
 .img{
     opacity: 0.8;
+}
+.tamanho-slide{
+    width: 70%;
+   justify-content: center;
+    display: block;
+}
+.list-group-item, .list-group-item-danger{
+    background-color: rgb(197, 21, 144) ;
+    color: white
+}
+.item{
+    height: 400px;
+}
+.img-responsive{
+    width: 15%;
+    display:inline;
+}
+address{
+    background-color: rgb(197, 21, 144) ;
+    color: white;
 }
